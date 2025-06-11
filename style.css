@@ -1,0 +1,59 @@
+body {
+    background-color: #000;
+    align-items: center;    
+}
+
+.booting img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+} 
+
+.gif img {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3.5rem;
+}
+
+.welcome img {
+    width: 99%;
+    height: 98%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.welcome h1 {
+      position: absolute;
+      top: 16%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 6rem;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome h2 {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome .wifi-icon {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12rem;
+}
