@@ -20,9 +20,22 @@ body {
 }
 
 .welcome img {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.sombra{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 0;
 }
 
 .welcome h1 {
@@ -34,6 +47,7 @@ body {
       font-size: 6.5rem;
       font-weight: 500;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      z-index: 1;
 }
 
 .welcome h2 {
@@ -45,6 +59,7 @@ body {
       font-size: 20px;
       font-weight: 500;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      z-index: 1;
 }
 
 .welcome .wifi-icon {
@@ -54,6 +69,7 @@ body {
     transform: translate(-50%, -50%);
     width: 50px;
     height: 30px;
+    z-index: 1;
 }
 
 .welcome .bateria-icon {
@@ -63,4 +79,152 @@ body {
     transform: translate(-50%, -50%);
     width: 25px;
     height: 25px;
+    z-index: 1;
+}
+
+.login img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0  ;
+}
+
+.blur-overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(25px);
+    z-index: 0;
+}
+
+.login .wifi-icon {
+    position: absolute;
+    top: 94.7%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 30px;
+    z-index: 1;
+}
+
+.login .acessibilidade-icon {
+    position: absolute;
+    top: 95%;
+    left: 93.5%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+
+.login .desligar-icon {
+    position: absolute;
+    top: 95%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.perfil {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    top: 18.5%;
+    left: 42.5%;
+}
+
+.cabeça{
+    position: absolute;
+    z-index: 1;
+    background-color: #8b8b8b;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    top: 20%;
+    left: 33%;
+}
+
+.busto{
+    position: absolute;
+    z-index: 1;
+    background-color: #8b8b8b;
+    border-radius: 0.96rem 0.96rem 50% 50%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    height: 3rem;
+    width: 6.5rem;
+    top: 60%;
+    left: 23.5%;
+} 
+
+.usuario1 {
+    z-index: 1;
+    position: absolute;
+    width: 5rem;
+    top: 50%;
+    left: 1.5%;
+}
+
+.usuario2 {
+    z-index: 1;
+    position: absolute;
+    width: 5rem;
+    top: 59%;
+    left: 1.5%;
+}
+
+.usuario3 {
+    z-index: 1;
+    position: absolute;
+    width: 5rem;
+    top: 68%;
+    left: 1.5%;
+}
+
+.usuario4 {
+    z-index: 1;
+    position: absolute;
+    width: 5rem;
+    top: 77%;
+    left: 1.5%;
+}
+
+.usuario5 {
+    z-index: 1;
+    position: absolute;
+    width: 5rem;
+    top: 86%;
+    left: 1.5%;
+}
+
+h1 {
+    z-index: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    color: #fff;
+    top: 45%;
+    left: 45%;
+    font-weight: 550;
+    font-size: 27px;
+}
+
+.input {
+    width: 22%;
+    top: 57%;
+    left: 39%;
+    border: 20%;
+    border-bottom: 2px solid #3064d3d7;
+    padding: 6px;
+    outline: 9px;
+    border-radius: 5px;
+    background-color: #1c105e;
+    color: #ffffffe0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    z-index: 1;
 }
